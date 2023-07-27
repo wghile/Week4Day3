@@ -44,13 +44,13 @@
                 wolfy.shift()
                 wolfy.unshift('Gameboy')
 
-    // //Yell at the Ninja Turtles
-    //     //1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
-    //         const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
-    //     //2. Use a for of loop(not a typo - try it out! Try a for of loop) to call toUpperCase()on each of them and print out the result.
-    //         for(element of ninjaTurtles){
-    //             console.log(element.toUpperCase())
-    //         }
+    //Yell at the Ninja Turtles
+        //1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+            const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+        //2. Use a for of loop(not a typo - try it out! Try a for of loop) to call toUpperCase()on each of them and print out the result.
+            for(element of ninjaTurtles){
+                console.log(element.toUpperCase())
+            }
 
     // //Methods, Revisited
     //     const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
