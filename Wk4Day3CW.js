@@ -52,38 +52,38 @@
                 console.log(element.toUpperCase())
             }
 
-    // //Methods, Revisited
-    //     const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
-    //     // Console log: the index of Titanic
-    //         const Titanic = (element) => element === 'Titanic'
-    //         console.log(favMovies.findIndex(Titanic))
-    //     // Do the following and console.log the final results (I have included some thought questions, you don't have to write out an answer for those marked as such):
-    //         //1. use the .sortmethod Thought question: what did this do to the array? Did it permanently alter it?
-    //             const newFavMovies = [...favMovies]
-    //             newFavMovies.sort()
-    //         //2. Use the method pop
-    //             favMovies.pop()
-    //         //3. push "Guardians of the Galaxy"
-    //             favMovies.push('Guardians of the Galaxy')
-    //         //4. Reverse the array
-    //             favMovies.reverse()
-    //         //5. Use the shift method
-    //             favMovies.shift()
-    //         //6. unshift - what does it return?
-    //             favMovies.unshift() //it returns 18 --> the length of the array
-    //         //7. splice "Django Unchained" and add "Avatar" (try finding the index of "Django Unchained", instead of counting it yourself) Thought question: did this permanently alter our array?
-    //             const django = (element) => element === 'Django Unchained'
-    //             // console.log(favMovies.findIndex(django)) //index 14
-    //             favMovies.splice(14, 1, 'Avatar')
-    //         //8. slicethe last half of the array (challenge yourself and try to programatically determine the middle of the array rather than counting it and hard coding it) - Thought question: did this permanently alter our array?
-    //             // console.log(favMovies.length) //array length is 18
-    //             favMovies.slice(9)
-    //         //9. store the value of your slice in a variable, console.log it - Thought question: what is going on here?
-    //             let lastHalf = favMovies.slice(9)
-    //             console.log(lastHalf)
-    //         //10. console.log your final results
-    //             console.log(favMovies)
-    //         //11. After running the above tasks, console.log the index of "Fast and Furious" -We removed it from the array, what value do we get when we look for the index of something that is not in the array?
-    //             const fast = (element) => element === 'Fast and Furious'
-    //             console.log(favMovies.findIndex(fast)) //index -1
-    //         //12. Thought question: that we declared the variable favMovieswith const, and yet, we were allowed to change the array. Weird? Should we have used let?
+    //Methods, Revisited
+        const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+        // Console log: the index of Titanic
+            const Titanic = (element) => element === 'Titanic'
+            console.log(favMovies.findIndex(Titanic))
+        // Do the following and console.log the final results (I have included some thought questions, you don't have to write out an answer for those marked as such):
+            //1. use the .sortmethod Thought question: what did this do to the array? Did it permanently alter it?
+                const newFavMovies = [...favMovies]
+                newFavMovies.sort()
+            //2. Use the method pop
+                favMovies.pop()
+            //3. push "Guardians of the Galaxy"
+                favMovies.push('Guardians of the Galaxy')
+            //4. Reverse the array
+                favMovies.reverse()
+            //5. Use the shift method
+                favMovies.shift()
+            //6. unshift - what does it return?
+                favMovies.unshift() //it returns 18 --> the length of the array
+            //7. splice "Django Unchained" and add "Avatar" (try finding the index of "Django Unchained", instead of counting it yourself) Thought question: did this permanently alter our array?
+                const django = (element) => element === 'Django Unchained'
+                // console.log(favMovies.findIndex(django)) //index 14
+                favMovies.splice(14, 1, 'Avatar')
+            //8. slicethe last half of the array (challenge yourself and try to programatically determine the middle of the array rather than counting it and hard coding it) - Thought question: did this permanently alter our array?
+                // console.log(favMovies.length) //array length is 18
+                favMovies.slice(9)
+            //9. store the value of your slice in a variable, console.log it - Thought question: what is going on here?
+                let lastHalf = favMovies.slice(9)
+                console.log(lastHalf)
+            //10. console.log your final results
+                console.log(favMovies)
+            //11. After running the above tasks, console.log the index of "Fast and Furious" -We removed it from the array, what value do we get when we look for the index of something that is not in the array?
+                const fast = (element) => element === 'Fast and Furious'
+                console.log(favMovies.findIndex(fast)) //index -1
+            //12. Thought question: that we declared the variable favMovieswith const, and yet, we were allowed to change the array. Weird? Should we have used let?
