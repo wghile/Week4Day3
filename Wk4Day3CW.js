@@ -87,3 +87,24 @@
                 const fast = (element) => element === 'Fast and Furious'
                 console.log(favMovies.findIndex(fast)) //index -1
             //12. Thought question: that we declared the variable favMovieswith const, and yet, we were allowed to change the array. Weird? Should we have used let?
+
+    //Where is Waldo
+        const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+            // Remove Eggbert (hint look at the slice/splice method(s))
+                whereIsWaldo.splice(1, 1)
+                // console.log(whereIsWaldo)
+            // Change "Neff" to "No One"
+                // whereIsWaldo.forEach((element, index) => {
+                //     if(element === 'Neff'){
+                //         whereIsWaldo.splice(index, 1, 'No One')
+                //     }else{
+                //         return element
+                //     }
+                // })
+                whereIsWaldo.splice(1, 1, ['Lucinda', 'Jacc', 'No One', 'Snoop'])
+                console.log(whereIsWaldo)
+            // // Access and console.log "Waldo"
+                let waldo = whereIsWaldo[2][1][1]
+                console.log(waldo)
