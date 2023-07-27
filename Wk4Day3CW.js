@@ -108,3 +108,28 @@
             // // Access and console.log "Waldo"
                 let waldo = whereIsWaldo[2][1][1]
                 console.log(waldo)
+    
+    //Excited Kitten
+        //1. Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
+        //2. For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.  
+            let string1 = '...human...why you taking pictures of me?...'
+            let string2 = '...the catnip made me do it...'
+            let string3 = '...why does the red dot always get away...'
+            let array = []
+            array.push(string1, string2, string3)
+            for(let i = 1; i < 21; i++){
+                if(i % 2 == 0){
+                    console.log(`${i}: ${array[(Math.floor(Math.random() * 3 + 0))]}`)
+                }else{
+                    console.log(`${i}: Love me, pet me! HSSSSS!`)
+                }
+            }
+
+    //Find the Median
+        // Find the median number in the following numsarray, then console.log that number.
+        // hint if you check the length of the array / 2, you might get not get a whole number. In which case, look into Math.floor( // something )
+        const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+            // nums.sort()
+            // // console.log(nums) //order from smallest to largest
+            // // console.log(nums.length) //25 --> 24 indexes
+            // console.log(nums[12])
